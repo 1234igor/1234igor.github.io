@@ -32,6 +32,12 @@ img {
   vertical-align: top;
 }
 
+#previewimg {
+  color: #02D5FF;
+  padding-top: 20px;
+
+}
+
 #projectimage {
   display: inline-block;
   padding-right: 20px;
