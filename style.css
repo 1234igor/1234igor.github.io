@@ -25,6 +25,11 @@ img {
   max-width: 100%;
 }
 
+#outlinkimg {
+  border: 2px solid #016A80;
+  max-width: 100%;
+}
+
 #projectpreview {
   display: inline-block;
   padding-right: 40px;
