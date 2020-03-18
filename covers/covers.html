@@ -1,0 +1,87 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- PLEASE NO CHANGES BELOW THIS LINE (UNTIL I SAY SO) -->
+  <script language="javascript" type="text/javascript" src="libraries/p5.min.js"></script>
+  <script language="javascript" type="text/javascript" src="oblojka1.js"></script>
+  <!-- OK, YOU CAN MAKE CHANGES BELOW THIS LINE AGAIN -->
+
+  <!-- This line removes any default padding and style.
+       You might only need one of these values set. -->
+  <style> body { padding: 0; margin: 0; }
+          input { color: black; font-family: "Times New Roman", Times, serif; font-size: 14px; background: transparent;
+    border: none; padding: 0px;}
+    p { color: black; font-family: "Times New Roman", Times, serif; font-size: 14px; background: transparent;
+    border: none; padding-left: 1px;}
+
+    #container {
+      width: 900px;
+  height: 612px;
+  position: relative;
+
+    }
+
+    #sketch-holder,
+    #ui, #fon {
+       width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+    }
+
+#ui {
+  padding-left:50px;
+  padding-top:40px;
+}
+
+    #sketch-holder {
+      z-index: -10;
+      padding-left:110px;
+      padding-top:50px;
+    }
+
+    #fon {
+      z-index: -20;
+      background-color: #FFF1FD;
+    }
+
+  </style>
+
+
+</head>
+
+
+<body>
+
+<div id="container">
+
+
+
+<div id="ui">
+<p>AUTHOR NAME: <input type="text" id="author_text_box"></p>
+<p>BOOK NAME: <input type="text" id="name_text_box"></p>
+<input type="button" id="generate_button" value="GENERATE">
+<input type="button" id="download_button" value="DOWNLOAD">
+</div>
+
+<div id="fon">
+</div>
+
+<div id="sketch-holder">
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+</body>
+</html>
