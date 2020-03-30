@@ -25,6 +25,11 @@ img {
   max-width: 100%;
 }
 
+video {
+  border: 2px solid #02D5FF;
+}
+
+
 #outlinkimg {
   border: 2px solid #016A80;
   max-width: 100%;
